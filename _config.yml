@@ -3,3 +3,10 @@ description: "Connecting clients with expert installers for every need."
 baseurl: "" # leave this blank for GitHub Pages
 url: "https://donald-desing.github.io/friendly-guacamole/" # replace <username> and repository name
 theme: minima
+nav:
+  - Home: /
+  - How It Works: /how-it-works/
+  - Services: /services/
+  - Contact Us: /contact-us/
+  - Join as an Installer: /join-as-an-installer/
+  - Project Showcase: /project-showcase/
