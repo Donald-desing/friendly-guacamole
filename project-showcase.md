@@ -25,3 +25,21 @@ var disqus_config = function () {
 })();
 </script>
 <noscript>Please enable JavaScript to view the comments.</noscript>
+<h3>Comments</h3>
+<div id="comments"></div>
+<form id="commentForm">
+    <label for="commentText">Leave a comment:</label>
+    <textarea id="commentText" required></textarea>
+    <button type="submit">Post Comment</button>
+</form>
+
+<script>
+    document.getElementById('commentForm').onsubmit = function(event) {
+        event.preventDefault();
+        const comment = document.getElementById('commentText').value;
+        const commentDiv = document.createElement('div');
+        commentDiv.innerHTML = <p>${comment}</p>;
+        document.getElementById('comments').appendChild(commentDiv);
+        this.reset();
+    };
+</script>
