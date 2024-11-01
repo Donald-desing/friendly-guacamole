@@ -1,6 +1,7 @@
 ---
-layout: home
-title: "Welcome to Installers Guild"
+layout: default
+title: Home
 ---
 
-Welcome to Installers Guild, your go-to platform for reliable installation services!
+<h2>Welcome to Installers Guild</h2>
+<p>Connecting clients with expert installers for every need.</p>
