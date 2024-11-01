@@ -1,0 +1,8 @@
+title: "Installers Guild"
+description: "Connecting clients with expert installers for every need."
+baseurl: "" # leave this blank for GitHub Pages
+url: "https://donald-desing.github.io/friendly-guacamole/" # replace <username> and repository name
+theme: minima
+nav:
+stylesheets:
+  - css/styles.css
