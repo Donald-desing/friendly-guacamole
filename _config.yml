@@ -1,5 +1,5 @@
 title: "Installers Guild"
 description: "Connecting clients with expert installers for every need."
 baseurl: "" # leave this blank for GitHub Pages
-url: "https://<username>.github.io/Installers-Guild-Site" # replace <username> and repository name
+url: "https://donald-desing.github.io/friendly-guacamole/" # replace <username> and repository name
 theme: minima
