@@ -26,3 +26,25 @@ nav a {
 nav a:hover {
     background: #e8491d;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+#projects div {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#comments div {
+    background-color: #f1f1f1;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+}
